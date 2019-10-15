@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/ime/res">
+        <file>button1.png</file>
+        <file>button2.png</file>
+        <file>button3.png</file>
+        <file>button4.png</file>
+        <file>hoverbutton1.png</file>
+        <file>hoverbutton2.png</file>
+        <file>hoverbutton3.png</file>
+        <file>hoverbutton4.png</file>
+        <file>keyboard.png</file>
+        <file>pinyin.txt</file>
+    </qresource>
+</RCC>
