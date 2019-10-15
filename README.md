@@ -22,7 +22,7 @@ a simple chinese/pinyin input method (IME) / software keyboad, for Qt Embedded (
 
 新的`main`函数代码大致如下，仅供参考：
 
-```
+```cpp
 #include "mainwindow.h"
 #include "ime/inputcontext.h"
 #include <QApplication>
@@ -54,6 +54,6 @@ int main(int argc, char *argv[])
 
 ## 阻止特定组件弹出输入法虚拟键盘
 
-```
+```cpp
 ui->lineEdit_no_ime->setAttribute(Qt::WA_InputMethodEnabled, false);
 ```
